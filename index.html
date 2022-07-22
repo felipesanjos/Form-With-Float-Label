@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Felipe S. Anjos">
+        <title>Form With Float Label</title>
+        <!--incluíndo css do boostrap-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./plugin/float-label/float-label.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <h2>Exemplo de formulário com "label" flutuante</h2>
+                        <p>float label</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="jumbotron">    
+                                <form method="post" action="" enctype="multipart/form-data" id="form">
+                                    <div class="form-group">
+                                        <label for="email">E-mail *</label>
+                                        <input type="email" name="email" class="form-control" required id="email" placeholder="Seu e-mail">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="senha">Senha</label>
+                                        <input type="password" name="senha" class="form-control" id="senha" placeholder="Sua senha...">
+                                    </div>
+                                    <button type="button" id="enviar" class="btn btn-default">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="text-center">
+                            <p>Desenvolvido por Felipe S. Anjos<br><a href="https://www.serpadosanjos.com/" target="_blank" title="Felipe S. Anjos">https://www.serpadosanjos.com/</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--incluíndo o jquery, sweet e boostrap-->
+        <script src="./js/jquery-3.6.0.min.js"></script>        
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./plugin/float-label/float-label.js"></script>        
+    </body>
+</html>
